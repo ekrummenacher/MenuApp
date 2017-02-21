@@ -1,0 +1,74 @@
+.App {
+  font-family: 'Limelight';
+}
+
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  font-family: Verdana;
+}
+
+.App-body {
+  display: flex;
+  flex-flow: column wrap;
+  height: 600px;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.arrivals {
+  width: 48%;
+}
+
+.departures {
+  width: 48%;
+}
+
+.international {
+  width: 48%;
+}
+
+.drink-section-title {
+  margin: 0px;
+  padding-top: 5px;
+}
+
+h3 {
+  margin: 0px;
+  padding-bottom: 20px;
+}
+
+/*th, td {
+  border: 1px solid red;
+}*/
+
+
+.drink-table {
+  font-size: 14px;
+  padding-left: 10px;
+  /*border: 1px solid red;*/
+  width: 80%;
+}
+
+.drink-rows {
+  text-align: left;
+  /*padding-bottom: 5px;*/
+}
+
+.input-form {
+  margin-bottom: 15px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
